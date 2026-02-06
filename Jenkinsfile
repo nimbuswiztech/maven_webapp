@@ -25,7 +25,7 @@ pipeline {
             }
         }
 
-        stage('Run Unit Tests') {
+        stage('Instsall app') {
             steps {
                 sh 'mvn clean install'
             }
